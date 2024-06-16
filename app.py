@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 
 
+
 def recommend(movie):
     movie_index = movies[movies['title'] == movie].index[0]
     distances = similarity[movie_index]  # Access the similarity scores for the movie index
@@ -14,10 +15,10 @@ def recommend(movie):
     return recommended_movies
 
 
-movies_dict = pickle.load(open('model/movie_dict.pkl','rb'))
+movies_dict = pickle.load(open('../model/movie_dict.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('model/similarity.pkl','rb'))
+similarity = pickle.load(open('../model/similarity.pkl','rb'))
 
 st.title('Movie Recommender System')
 
