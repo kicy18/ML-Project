@@ -21,25 +21,6 @@ TF-IDF Vectorization: Converts text data into numerical format using term freque
 Cosine Similarity: Measures the cosine of the angle between two non-zero vectors to determine similarity.
 3. Interactive Web Application
 Streamlit: Creates a user-friendly web interface where users can input a movie title and receive a list of similar movies.
-How to Run the Project
-Clone the Repository
-
-sh
-Copy code
-git clone https://github.com/yourusername/movierecommendationsystem.git
-cd movierecommendationsystem
-Install Dependencies
-
-sh
-Copy code
-pip install -r requirements.txt
-Run the Streamlit Application
-
-sh
-Copy code
-streamlit run app.py
-Access the Application
-Open your web browser and go to http://localhost:8501 to access the Movie Recommendation System.
 
 Usage
 Input a Movie Title: Type or select a movie from the dropdown list provided.
@@ -51,9 +32,6 @@ Add User Authentication: Implement user login to save and personalize recommenda
 User Feedback: Collect user feedback to continuously improve recommendations.
 Contributing
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to fork the repository and submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Acknowledgements
 Special thanks to the developers of the libraries and tools used in this project.
